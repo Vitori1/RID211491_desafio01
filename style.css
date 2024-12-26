@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+    
+}
+#titulo-menu-superior{
+    padding-top: 90px;
+    margin-left: 80px;
+
+}
+#texto-menu-superior{
+    padding-bottom: 80px;
+    margin-left: 80px;
+    padding-top: 15px;
+
+}
+#divmenu-superior{
+    background-color: #303030;
+    color: #FFFFFF;
+    
+}
+#menu-de-informacao{
+    background-color: white;
+    color: #000000;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 80px 100px 70px 200px;
+}
+.texto-de-informacao{
+    font-weight: normal;
+}
+#sobre-a-empresa{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#texto-e-titulo-sobre-a-empresa{
+    margin: 150px 100px 150px 50px;
+}
+#titulo-sobre-a-empresa{
+    margin: 70px 0px 40px 40px;
+}
+#texto-sobre-a-empresa{
+    margin: 0px 0px 0px 40px;
+}
+#formulario{
+    text-align: center;
+    background-color: #303030;
+}
+#titulo-form{
+    color: #FFFFFF;
+    padding-top: 60px;
+    margin: 30px;
+}
+input{
+    width: 280px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0%;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+button{
+    padding: 10px;
+    margin: 25px;
+    background-color: #C07212;
+    height: 40px;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    width: 150px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    background-color:#3bc01294;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 20px 40px #e4b419bd;
+}
